@@ -1,18 +1,8 @@
 <html><head>
-    <!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DCY2R1DVJF"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DCY2R1DVJF');
-</script>
-    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8831680677027134" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <title>Stickman Hook</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-
+		<script src="/adinLoader.js"></script>
     <style>
       html,
       body {
@@ -23,8 +13,8 @@
         padding: 0;
         border: 0;
         overflow: hidden;
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         background-color: black;
       }
       canvas {
@@ -33,7 +23,7 @@
     </style>
 
     <!-- Poki SDK -->
-    <script src="poki3.js"></script><script src="./poki2.js" type="text/javascript"></script>
+    <script src="poki.js"></script>
   <style type="text/css">@font-face {
   font-family: "JUNEGULL";
   font-style: normal;
@@ -743,10 +733,24 @@ input[type="button"]::-moz-focus-inner {
     display: none;
   }
 }
-</style><script type="text/javascript" async="" src=""></script><script type="text/javascript" async="" src=""></script><script type="text/javascript" async="" src="./prebid4.12.0.js"></script><script type="text/javascript" async="" src=""></script></head>
-  <body>
+</style><script type="text/javascript" async="" src="https://lablockedgames.loc/main.js"></script><script type="text/javascript" async="" src="https://lablockedgames.com/main.min.js"></script><script type="text/javascript" async="" src="https://lablockedgames.com/main.min.js"></script><script>
+    var aiptag = aiptag || {};
+    aiptag.cmd = aiptag.cmd || [];
+    aiptag.cmd.display = aiptag.cmd.display || [];
+    aiptag.cmd.player = aiptag.cmd.player || [];
+    </script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><link rel="stylesheet" href="https://lablockedgames.com/preroll/style.css"><script src="//api.adinplay.com/libs/aiptag/pub/UBG/lablockedgames.com/tag.min.js" async=""></script></head>
+  <body><div id="preroll"></div><div id="adsCode" style="position: absolute; z-index: 9999; background-color: black; color: lightyellow; width: 100%; height: 100%; padding: 0px; margin: 0px;"><div class="maindiv"><button class="button" type="button" id="startGame">Play</button></div></div>
 
     <script src="bundle.js"></script>
+		<script>
+       if (typeof getAdinDomain !== 'undefined') {
+           const bodyTag = document.getElementsByTagName('body')[0];
+
+           let addAdinPreroll = document.createElement('script');
+            addAdinPreroll.src = getAdinDomain;
+            bodyTag.appendChild(addAdinPreroll);
+        }
+  </script><script src="https://lablockedgames.com/preroll/adinGameLoader.js"></script>
   
 
-<canvas width="866" height="631" style="touch-action: none; cursor: inherit;"></canvas><div class="ui"><div class="title-buttons"><div class="row"><button class="play-button button">PLAY<br>1 / 5</button><button class="shop-button button  unlocked  type-undefined "><img class="image" src="images/01434c96a36c2c33d787073809c13b8b-CHAR_SuperStick_Miniature.png"><span class="text">15/23</span></button></div><div class="row"></div></div></div><div style="position: absolute; bottom: 0px; left: 0px; right: 0px;"></div></body></html>
+<canvas width="809" height="454" style="touch-action: none; cursor: inherit;"></canvas><div class="ui"><div class="title-buttons"><div class="row"><button class="play-button button">PLAY<br>1 / 5</button><button class="shop-button button  unlocked  type-undefined "><img class="image" src="images/601a0de398a32bd53366c6fee57ea531-CHAR_Dragon_Miniature.png"><span class="text">15/23</span></button></div><div class="row"></div></div></div><div style="position: absolute; bottom: 0px; left: 0px; right: 0px;"></div></body></html>
